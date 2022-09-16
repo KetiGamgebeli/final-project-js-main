@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body{
+  background: #656770; 
+  position: relative;
+} 
+
+img{
+  max-width: 28%;
+}   
+
+#onelist{
+  position: fixed;
+  top: 22%;
+  left: 0%;
+} 
+
+.styles{
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 430;
+  line-height: 40px; 
+  color: #aaa2a2;
+} 
+
+.styles:hover{
+  color: #FFFFFF;
+  background: linear-gradient(90deg, rgba(60, 65, 78, 0) 22.92%, #2D3038 100%); 
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.shpmlist{
+  text-transform: uppercase; 
+  font-size: 24px;
+  color: #aaa2a2;
+}
+
+ #result{
+  position: fixed;
+  width: 66%;
+  height:72%; 
+  right: 4%;
+  top: 20%;  
+  background: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+  border-radius: 28px;
+}
+
+#input{
+  border-radius: 10px;
+  position: absolute;
+  top:35%;
+  left: 5%;
+  width:350px;
+  background: #FFFFFF;
+  height: 35px;
+  text-align: center;
+} 
+
+#test {
+ position: absolute;
+ top: 4%;
+ left: 5%;
+ font-weight: 200;
+ font-size: 32px;
+ color: #FFFFFF;
+}
+
+#contact{
+  position: absolute;
+  left: 5%;
+  font-size: 22px;
+  right: 0%;
+  top: 15%;
+  font-style: normal;
+  font-weight: 400;
+  color: #969191;
+}
+
+#boxcargo{
+  position: absolute;
+  top: 28%;
+  left: 5%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;    
+  color: #979797;
+} 
+
+#number{
+  position: absolute;
+  top:40%;
+  left: 5%;
+  height: 48px; 
+  font-style: normal; 
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #979797;
+}
+
+#output{
+  position: absolute;
+  max-width: 32px;
+  height: 66px;
+  left: 5%;
+  top: 45%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 66px; 
+  color: #FFFFFF;
+}
+
